@@ -1,0 +1,111 @@
+/*** GENERALES ***/
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  max-width: 960px;
+}
+.bg-black {
+  background-color: #000000!important;
+}
+.bg-transparent {
+  background-color: transparent!important;
+}
+
+/*** HEADER ***/
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header .navbar-brand {
+  width: 100px;
+}
+.site-header .navbar-brand img {
+  width: 100%;
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*** BARRA SOCIAL MEDIA ***/
+.nav-social {
+  position: fixed;
+  z-index: 9999;
+  top: 20%;
+  margin-left: 20px;
+}
+.nav-social .nav-link {
+  padding-right: 0;
+  padding-left: 0;
+}
+.bg-fb {
+  color: #3B5998;
+}
+.bg-instagram {
+  color: #C13584;
+}
+.nav-social .nav-link:hover i {
+  color: rgba(255, 255, 255, 0.8);
+}
+.nav-social .nav-link:hover .bg-fb {
+  color: rgba(59,89,152,0.8);
+}
+.nav-social .nav-link:hover .bg-instagram {
+  color: rgba(193,53,132,0.8);
+}
+
+/*** HERO ***/
+.bg-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*** PLANES ***/
+.pricing-header {
+  max-width: 700px;
+}
+.card-deck .card {
+  min-width: 220px;
+}
+
+/*** BOTON WSP ***/
+
+.contacto-wsp {
+  position: fixed;
+	bottom: 100px;
+	right: 30px;
+	background-color: transparent;
+  z-index: 9999;
+}
+
+.btn-wsp {
+  position: absolute;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+}
+.btn-wsp:hover {
+  background-color: rgba(37,211,102,0.8);
+  color: rgba(255, 255, 255, 0.8);
+}
+.my-float{
+	margin-top:16px;
+}
+
+/*** FOOTER ***/
+footer img {
+  width: 100px;
+}
